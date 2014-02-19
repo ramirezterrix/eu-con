@@ -57,7 +57,8 @@ $serif: $theme-serif-font, $serif;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: #66CDAA;
+$body-bg: $cardinal-red;
+$body-bg: $cardinal-red;
 $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
@@ -185,12 +186,12 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: '../themes/stanford/images/dish.jpg';
+$homepage-bg-image: '../themes/eu-con/images/dish.jpg';
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
+$video-thumb-url: '../themes/eu-con/images/stanford-video-thumb.png';
 
 //-----------------
 //  Mixin Styles
