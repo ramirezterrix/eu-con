@@ -10,6 +10,7 @@
 //-----------------
 
 //Cardinal Color Variables
+$eu-con-blue: #1874CD
 $cardinal-red: #8C1515;
 $dark-red: #820000; //Link Color
 $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
@@ -93,7 +94,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: $dark-red;
 $header-link-hover: $cardinal-light;
 
-$button-color: $cardinal-red;
+$button-color: $eu-con-blue;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
