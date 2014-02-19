@@ -11,6 +11,7 @@
 
 //Cardinal Color Variables
 $eu-con-blue: #1874CD;
+$eu-con-darkblue: #104E8B;
 $cardinal-red: #8C1515;
 $dark-red: #820000; //Link Color
 $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
@@ -110,7 +111,7 @@ $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-red;
+$action-primary-focused-bg: $eu-con-darkblue;
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
