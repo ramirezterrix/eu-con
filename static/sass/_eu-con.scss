@@ -12,6 +12,7 @@
 //Cardinal Color Variables
 $eu-con-blue: #1874CD;
 $eu-con-darkblue: #104E8B;
+$eu-con-lightblue: #3FBBFF;
 $cardinal-red: #8C1515;
 $dark-red: #820000; //Link Color
 $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
@@ -65,10 +66,10 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
 $header-image: none;
-$header-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$header-bg: transparentize(lighten($eu-con-lightblue, 18.5%), .25);
 $courseware-header-image: none;
-$courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
-$footer-bg: $sandstone-25;
+$courseware-header-bg: transparentize(lighten($eu-con-lightblue, 18.5%), .25);
+$footer-bg: $eu-con-lightblue-25;
 $courseware-footer-border: 1px solid $beige-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -84,16 +85,16 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: #F0F8FF;
+$link-color: #eu-con-lightblue;
 $link-color-d1: $eu-con-blue;
-$link-hover: $cardinal-light;
-$site-status-color: $cardinal-bg;
+$link-hover: $eu-con-lightblue;
+$site-status-color: $eu-con-lightblue;
 
 $header-graphic-super-color: $eu-con-darkblue;
 $header-graphic-sub-color: $lighter-base-font-color;
 
 $header-link-color: $eu-con-blue;
-$header-link-hover: $cardinal-light;
+$header-link-hover: $eu-con-lightblue;
 
 $button-color: $eu-con-blue;
 $button-archive-color: $gray-3;
