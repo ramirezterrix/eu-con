@@ -59,8 +59,8 @@ $serif: $theme-serif-font, $serif;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $cardinal-red;
-$body-bg: $cardinal-red;
+$body-bg: $eu-con-blue;
+$body-bg: $eu-con-blue;
 $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
@@ -85,14 +85,14 @@ $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
 $link-color: #F0F8FF;
-$link-color-d1: $dark-red;
+$link-color-d1: $eu-con-blue;
 $link-hover: $cardinal-light;
 $site-status-color: $cardinal-bg;
 
-$header-graphic-super-color: $dark-red;
+$header-graphic-super-color: $eu-con-darkblue;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $dark-red;
+$header-link-color: $eu-con-blue;
 $header-link-hover: $cardinal-light;
 
 $button-color: $eu-con-blue;
@@ -115,7 +115,7 @@ $action-primary-focused-bg: $eu-con-darkblue;
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-red;
+$action-primary-active-bg: $eu-con-blue;
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
 $action-primary-active-focused-fg: $gray-2;
@@ -193,7 +193,7 @@ $homepage-bg-image: '../themes/eu-con/images/dish.jpg';
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '../themes/eu-con/images/stanford-video-thumb.png';
+$video-thumb-url: '../themes/eu-con/images/eu-con-video-thumb.png';
 
 //-----------------
 //  Mixin Styles
