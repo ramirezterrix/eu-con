@@ -26,6 +26,7 @@ $beige-25: lighten($beige, 25%);
 //Sandstone Color Variables
 $sandstone: #ddcf99;
 $sandstone-50: lighten($sandstone, 9%);
+$eu-con-50: lighten($eu-con-blue, 9%);
 $sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color 
 
 //Gray Color Variables
@@ -69,7 +70,7 @@ $header-image: none;
 $header-bg: transparentize(lighten($eu-con-lightblue, 18.5%), .25);
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($eu-con-lightblue, 18.5%), .25);
-$footer-bg: $eu-con-lightblue-25;
+$footer-bg: $eu-con-25;
 $courseware-footer-border: 1px solid $beige-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
