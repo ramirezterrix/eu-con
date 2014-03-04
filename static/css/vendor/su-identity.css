@@ -5,13 +5,13 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
-#su-header .su-container,
-#su-footer .su-container {
+#header .container,
+#footer .container {
   margin: 0 auto;
 }
 
-#su-header .span2,
-#su-footer .span2 {
+#header .span2,
+#footer .span2 {
   display: block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -19,8 +19,8 @@
           box-sizing: border-box;
 }
 
-#su-header .span10,
-#su-footer .span10 {
+#header .span10,
+#footer .span10 {
   display: block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -28,79 +28,79 @@
           box-sizing: border-box;
 }
 
-#su-header .su-container:after,
-#su-footer .su-container:after {
+#header .container:after,
+#footer .container:after {
   clear: both;
 }
 
-#su-header .row:after,
-#su-footer .row:after {
+#header .row:after,
+#footer .row:after {
   clear: both;
 }
 
 /* Background gradient */
-#su-header {
+#header {
   background: #104E8B;
   box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
   min-height: 30px;
 }
 
-#su-footer,
-#su-footer .su-container {
+#footer,
+#footer .container {
   background: #104E8B;
   color: #e3dfd5;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
 
 /* Prevent flush left */
-#su-header .su-container img {
+#header .container img {
   padding: 4px 0 0 10px;
 }
 
-#su-footer a {
+#footer a {
   color: #e3dfd5;
 }
 
-#su-footer a:hover {
+#footer a:hover {
   text-decoration: underline;
 }
 
 /* Prevent horizontal scroll bar */
-#su-footer .su-container {
+#footer .container {
   padding: 3px 7px 20px;
 }
 
-#su-footer .su-container .su-row {
+#footer .container .su-row {
   margin: 30px 0 0;
 }
 
 /* Align logo and text */
-#su-footer-logo {
+#footer-logo {
   margin: 0 0 10px;
   padding: 0;
 }
 
-#su-footer-text {
+#footer-text {
   margin-top: 0;
 }
 
-#su-footer-text ul {
+#footer-text ul {
   margin: 2px 0 0;
   padding: 0;
   line-height: 1em;
 }
 
-#su-footer-text ul li {
+#footer-text ul li {
   display: block;
   list-style: none;
 }
 
-#su-footer-text ul li a {
+#footer-text ul li a {
   font: 13px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
   text-decoration: none;
 }
 
-#su-footer p.copyright {
+#footer p.copyright {
   font: 11px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
   margin: 0;
   padding: 30px 0 0;
@@ -108,28 +108,28 @@
   color: #e3dfd5;
 }
 
-#su-footer p.copyright span {
+#footer p.copyright span {
   color: #e3dfd5;
 }
 
 /* Footer two columns */
-#su-footer .span2 {
+#footer .span2 {
   width: 48%;
   float: left;
 }
 
-#su-footer .span10 {
+#footer .span10 {
   width: 48%;
   float: right;
 }
 
-#su-footer img {
+#footer img {
   margin: 0 auto;
   display: block;
 }
 
 /* Clear the floats */
-#su-footer .clear {
+#footer .clear {
   clear: both;
 }
 
@@ -143,7 +143,7 @@ Media queries
 
 @media screen and (min-width: 768px) {
   /* Prevent double background gradient */
-  #su-footer .su-container {
+  #footer .container {
     background:none;
     box-shadow:none;
   }
@@ -153,47 +153,47 @@ Media queries
   }
 
   /* Remove left padding */
-  #su-header .su-container img {
+  #header .container img {
     padding:4px 0 0;
   }
 
   /* Bootstrap style */
-  #su-header .su-container,
-  #su-footer .su-container {
+  #header .container,
+  #footer .container {
     width:724px;
   }
 
-  #su-footer .su-container .su-row {
+  #footer .container .su-row {
     margin:30px 0 0 -20px;
   }
   /* Footer single column */
-  #su-footer .span2 {
+  #footer .span2 {
     float:left;
     width:104px;
     padding-left:8px; /* Prevent flush left */
   }
   /* Bootstrap style */
-  #su-footer .span10 {
+  #footer .span10 {
     width:600px;
     margin-left:20px;
     margin:0 12px 0 20px;
     float:left;
   }
 
-  #su-footer img {
+  #footer img {
     margin:0 auto;
   }
 
-  #su-footer ul li.alt {
+  #footer ul li.alt {
   	clear:right;
   }
   /* Footer two column */
-  #su-footer ul {
+  #footer ul {
     width:100%;
     float:left;
   }
 
-  #su-footer ul li {
+  #footer ul li {
   	width:auto;
   	margin:0 13px 3px 0;
   	padding:0;
@@ -206,7 +206,7 @@ Media queries
     margin:-5px 0 10px;
   }
 
-  #su-footer .clear {
+  #footer .clear {
     clear:none;
   }
 
@@ -219,16 +219,16 @@ Media queries
 
 @media screen and (min-width: 980px) {
   /* Bootstrap style */
-  #su-header .su-container,
-  #su-footer .su-container {
+  #header .container,
+  #footer .container {
     width:940px;
   }
 
-  #su-footer .span2 {
+  #footer .span2 {
     width:140px;
   }
 
-  #su-footer .span10 {
+  #footer .span10 {
     width:780px;
   }
 }
@@ -236,16 +236,16 @@ Media queries
 @media screen and (min-width: 1200px) {
   /* Bootstrap style */
   
-  #su-header .su-container,
-  #su-footer .su-container {
+  #header .container,
+  #footer .container {
     width:1180px;
   }
 
-  #su-footer .span2 {
+  #footer .span2 {
     width:170px;
   }
 
-  #su-footer .span10 {
+  #footer .span10 {
     width:970px;
   }
 
@@ -271,7 +271,7 @@ http://www.cssstickyfooter.com
 	/*overflow:visible;*/
 	/*padding-bottom: 120px; [> must be same height as the footer <]*/
 /*}*/
-/*#su-footer {*/
+/*#footer {*/
 	/*position: relative;*/
 	/*margin-top: -120px; [> negative value of footer height <]*/
 	/*height: 120px;*/
@@ -280,14 +280,14 @@ http://www.cssstickyfooter.com
 
 /*[> IE6/7 uses media, <]*/
 /*@media, {*/
-  /*#su-footer {*/
+  /*#footer {*/
     /*height: 219px;*/
   /*}*/
 /*}*/
 
 /*[> IE8 uses \0/ <]*/
 /*@media all {*/
-  /*#su-footer {*/
+  /*#footer {*/
     /*height: 196px\0/;*/
   /*}*/
 /*}*/
